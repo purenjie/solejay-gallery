@@ -1,0 +1,4 @@
+baseURL = 'https://solejay.cn'
+languageCode = 'en-us'
+title = 'Solejay Gallery'
+theme = 'gallery'
