@@ -34,5 +34,5 @@ git push origin master
 4. 同步到服务器
 
 ```bash
-rsync -avuz --progress --delete -e 'ssh -p 1202' dist/ root@104.168.120.15:/opt/1panel/apps/openresty/openresty/www/sites/gallery.solejay.cn/index
+rsync -avuz --progress --delete -e 'ssh -p 1202' public/ root@104.168.120.15:/opt/1panel/apps/openresty/openresty/www/sites/gallery.solejay.cn/index
 ```
